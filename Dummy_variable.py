@@ -11,7 +11,7 @@ data = {
 df = pd.DataFrame(data)
 
 print("Original Data:")
-print(df)
+print(df) 
 
 # Create Dummy Variables
 dummy = pd.get_dummies(df['City'])
